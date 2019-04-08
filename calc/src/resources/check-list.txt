@@ -1,0 +1,55 @@
+Summation
+    negative and positive numbers - data provider
+    long and double
+    if there is only one number  -  компилятор не пропустит
+
+Subtraction
+    negative and positive numbers
+    long and double
+
+Multiplication
+    negative and positive numbers
+    long and double
+    overflow
+
+Division
+    negative and positive numbers
+    long and double
+    overflow
+    by zero
+
+Sqrt корень
+    if negative how does the app solve it
+    If the argument is NaN or less than zero, then the result is NaN.
+    If the argument is positive infinity, then the result is positive infinity.
+    If the argument is positive zero or negative zero, then the result is the same as the argument.
+
+Pow степень
+    If the second argument is positive or negative zero, then the result is 1.0.
+    If the second argument is 1.0, then the result is the same as the first argument.
+    If the second argument is NaN, then the result is NaN.
+    If the first argument is NaN and the second argument is nonzero, then the result is NaN.
+     округляет дробь в меньшую сторону?
+
+Sin
+    принимает 1 параметр, что принимает и что получается
+
+Tan
+    принимает 1 параметр, что принимает и что получается
+
+CTan
+    принимает 1 параметр, что принимает и что получается
+
+Cos
+    принимает 1 параметр, что принимает и что получается
+
+
+
+IsPositive
+    with positive, negative and zero
+
+IsNegative
+    with positive, negative and zero
+
+Timeout
+    к чему, что это

@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG group tests">
+    <listeners>
+        <listener class-name="com.epam.lab.TestingCalculator.TestNG.Listeners_TestNG.Listeners_TestNG"></listener>
+    </listeners>
+
+    <test name="TestNG group tests - groups = Simple operations">
+       <groups>
+           <run>
+               <include name="Simple operations"/>
+           </run>
+       </groups>
+           <classes>
+               <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.DivTestCalcForDoubleValues"></class>
+           </classes>
+
+    </test>
+</suite>

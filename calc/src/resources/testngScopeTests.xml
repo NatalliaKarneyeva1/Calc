@@ -1,0 +1,103 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG scope tests" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="com.epam.lab.TestingCalculator.TestNG.Listeners_TestNG.Listeners_TestNG"></listener>
+    </listeners>
+
+    <test name="SubtractionLong tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.SubtrTestCalcForLongValues"></class>
+        </classes>
+    </test>
+
+    <test name="SummationLong tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.SumTestCalcForLongValues"></class>
+        </classes>
+    </test>
+
+    <test name="MultiplicationLong tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.MultTestCalcForLongValues"></class>
+        </classes>
+    </test>
+
+    <test name="DivisionLong tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.DivTestCalcForLongValues"></class>
+        </classes>
+    </test>
+
+    <test name="SubtractionDouble tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.SubtrTestCalcForDoubleValues"></class>
+        </classes>
+    </test>
+
+    <test name="SummationDouble tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.SumTestCalcForDoubleValues"></class>
+        </classes>
+    </test>
+
+    <test name="MultiplicationDouble tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.MultTestCalcForDoubleValues"></class>
+        </classes>
+    </test>
+
+    <test name="DivisionDouble tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.DivTestCalcForDoubleValues"></class>
+        </classes>
+    </test>
+
+    <test name="SqrtDouble tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.SqrtTestCalcForDoubleValues"></class>
+        </classes>
+    </test>
+
+    <test name="PowDouble tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.PowTestCalcForDoubleValues"></class>
+        </classes>
+    </test>
+
+    <test name="SinDouble tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.SinTestCalcForDoubleValues"></class>
+        </classes>
+    </test>
+
+    <test name="CosDouble tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.CosTestCalcForDoubleValues"></class>
+        </classes>
+    </test>
+
+    <test name="TanDouble tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.TanTestCalcForDouble"></class>
+        </classes>
+    </test>
+
+    <test name="CtanDouble tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.CtanTestCalcForDoubleValues"></class>
+        </classes>
+    </test>
+
+    <test name="IsPositiveLong tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.IsPositiveCalcForLongValues"></class>
+        </classes>
+    </test>
+
+    <test name="IsNegativeLong tests">
+        <classes>
+            <class name="com.epam.lab.TestingCalculator.TestNG.Tests_TestNG.IsNegativeCalcForLongValues"></class>
+        </classes>
+    </test>
+
+</suite>
